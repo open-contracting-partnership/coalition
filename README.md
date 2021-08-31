@@ -21,5 +21,6 @@ A few manual changes were made:
 
 - Move pages like `evidence` into directories like `evidence.html`
 - Add images served from `open-procurement.eu`
+- Reduce file hierarchy for uploaded images
 - Replace absolute URLs with relative URLs
 - Use `<base>` tag to fix URLs on GitHub Pages

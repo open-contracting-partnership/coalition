@@ -20,3 +20,6 @@ The `debug.log` file was then checked for `ERROR` messages.
 A few manual changes were made:
 
 - Move pages like `evidence` into directories like `evidence.html`
+- Add images served from `open-procurement.eu`
+- Replace absolute URLs with relative URLs
+- Use `<base>` tag to fix URLs on GitHub Pages

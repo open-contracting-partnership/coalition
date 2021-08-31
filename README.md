@@ -1,6 +1,5 @@
 # Coalition
 
-
 ## Migration
 
 Mirror the [Laravel](https://github.com/epforgpl/coalition) site:
@@ -24,3 +23,5 @@ A few manual changes were made:
 - Reduce file hierarchy for uploaded images
 - Replace absolute URLs with relative URLs
 - Use `<base>` tag to fix URLs on GitHub Pages
+
+The app.css` and `app.js` files are compiled. The source files are in the `src/` directory.

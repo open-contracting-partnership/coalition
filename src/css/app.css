@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+.border-green {
+    border-color: #6016C7;
+}
+
+.bg-green {
+    background-color: #6016C7;
+}
+
+a {
+    color: #6016C7;
+}
+
+.text-green {
+    color: #6016C7;
+}
+
+.discrete {
+    color: rgba(17, 24, 39);
+    transition-duration: 200ms;
+}
+
+.discrete:hover {
+    color: #6016C7;
+}
+
+.discrete .link {
+    color: #6016C7;
+    font-weight: bold;
+    margin-left: 0.25rem;
+}
+
+.browser-window {
+    background-color: #e6e6e6;
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+}
+.browser-window .browser-window-inner {
+    border: 1px solid #f3f3f3;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom: 0;
+}
+.browser-window .browser-window-header {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.browser-window .browser-window-header .buttons-left {
+    height: 2rem;
+    padding: 0.45rem;
+}
+.browser-window .browser-window-header .buttons-left span {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 0.7rem;
+    margin: 0.2rem;
+    background-color: #bbb;
+    display: inline-block;
+}
+.browser-window .browser-window-body {
+    background-color: #f1f2f3;
+}
+.browser-window .browser-window-body img {
+    width: 100%;
+}
+
+.bg-gradient {
+    /*background-image: linear-gradient(to bottom right, #FFFFFF, #f9fafb);*/
+}
+
+
+.vueperslides__arrow {
+    color: #6016C7 !important;
+}
+
+
+.people .vueperslides--fixed-height {
+    height: 20rem !important;
+}
+
+.politicians .vueperslides--fixed-height {
+    height: 20rem !important;
+}
+
+.politician {
+    color: white;
+}
+
+.politician .gradient {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+@keyframes move {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+}
+
+#tools > div:nth-child(1) > div {
+    border-top: none !important;
+}
+
+@media (min-width: 768px) {
+    #tools > div:nth-child(2) > div {
+        border-top: none !important;
+    }
+}

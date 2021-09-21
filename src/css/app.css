@@ -17,7 +17,9 @@
 .border-green {
     border-color: #6016C7;
 }
-
+.bg-darkgray:{
+    background-color: #323232;
+}
 .bg-green {
     background-color: #6016C7;
 }

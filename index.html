@@ -24,7 +24,7 @@
 </div>
 
 <div class="container mx-auto h-full px-4" id="app">
-    <div class="md:flex border-2 border-green bg-white bg-gradient rounded-lg my-8 md:my-8">
+    <div class="md:flex border-2 border-gray-300 bg-white bg-gradient rounded-lg my-8 md:my-8">
         <div class="md:w-1/2 px-4 py-4 flex flex-col justify-center">
             <h1 class="text-2xl leading-snug font-semibold mb-2">Coalition for open, fair, and accountable public spending in&nbsp;the&nbsp;EU</h1>
             <p class="text-lg leading-snug mb-2">We aim to stop procurement funds siphoning off and we have a plan that will help.</p>
@@ -561,10 +561,10 @@
 
     <div class="my-8 md:my-8">
         <div class="flex justify-center">
-            <button @click="form = 'contact'" class="px-5 py-2 w-32 rounded-tl-lg" :class="{'bg-green': (form === 'contact'), 'bg-gray-200': (form !== 'contact'), 'text-white': (form === 'contact'), 'text-gray-900': (form !== 'contact')}">Contact Us</button>
-            <button @click="form = 'join'" class="px-5 py-2 w-32 rounded-tr-lg" :class="{'bg-green': (form === 'join'), 'bg-gray-200': (form !== 'join'), 'text-white': (form === 'join'), 'text-gray-900': (form !== 'join')}">Join Us</button>
+            <button @click="form = 'contact'" class="px-5 py-2 w-32 rounded-tl-lg" :class="{'bg-gray-300': (form === 'contact'), 'bg-gray-200': (form !== 'contact'), 'text-white': (form === 'contact'), 'text-gray-900': (form !== 'contact')}">Contact Us</button>
+            <button @click="form = 'join'" class="px-5 py-2 w-32 rounded-tr-lg" :class="{'bg-gray-300': (form === 'join'), 'bg-gray-200': (form !== 'join'), 'text-white': (form === 'join'), 'text-gray-900': (form !== 'join')}">Join Us</button>
         </div>
-        <div class="border-2 border-green bg-gray-50 rounded-lg px-8 py-4">
+        <div class="border-2 border-gray-300 bg-gray-50 rounded-lg px-8 py-4">
 
 
             <div v-if="form === 'contact'">

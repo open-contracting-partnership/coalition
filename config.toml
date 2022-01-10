@@ -1,4 +1,4 @@
-baseURL = 'http://open-spending.test/'
+baseURL = 'https://www.open-spending.eu/'
 languageCode = 'pl-PL'
 title = 'Open spending'
 features = []

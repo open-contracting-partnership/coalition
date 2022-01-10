@@ -1,75 +1,74 @@
-# 1. Dodawanie nowego wpisu
+# 1. Adding a new entry
 
-hugo new posts/tytul_nowego_wpisu.md
+hugo new posts / title_new_wpisu.md
 
-## Dodawanie nowego logo
+## Adding a new logo
 
-hugo new logotypes/tytul_nowego_logo.md
+hugo new logotypes / title_new_logo.md
 
-## Redagowanie wpisu
+## Editing the entry
 
-Nalezy przejsc do katalogu posts i wyedytowac plik tytul_nowego_wpisu.md - nalezy odpowiednio uzupelnic pola
+Go to the posts directory and edit the file title_new_post.md - fill in the fields accordingly
 
-```
+``
 ---
 title: "Tytul_nowego_wpisu"
-date: 2021-11-22T23:16:43+01:00
+date: 2021-11-22T23: 16: 43 + 01: 00
 draft: true
-alternativeUrl: 
-summary: 
-thumbnail: "i/europe.svg"
+alternativeUrl:
+summary:
+thumbnail: "i / europe.svg"
 ---
-```
+``
 
-Pole alternativeUrl uzywane jest jezeli chcemy zeby zamiast do podstrony z trescia linki odnosily nas do zewnetrznej strony
+The alternativeUrl field is used if we want to refer us to an external page instead of a subpage with the content of the link
 
-Pole thumbnail uzywane jest do dodania obrazka miniaturki do wpisu - trzeba go wczesniej dodac do katalogu static a sciezka wpisywana w tym polu zaczyna sie wewnatrz katalogu static np. dla static/i/europe.svg wpisujemy jedynie i/europe.svg
+The thumbnail field is used to add a thumbnail image to the entry - it must be added to the static directory beforehand and the path entered in this field starts inside the static directory, e.g. for static / i / europe.svg, just enter i / europe.svg
 
-Pole summary mozna uzywac skladni markdown np. zeby zrobic link
+The summary field can be used with markdown syntax eg to make a link
 
-## Redagowanie logotypu
+## Editing the logotype
 
-Nalezy przejsc do katalogu logotypes i wyedytowac plik tytul_nowego_logo.md - nalezy odpowiednio uzupelnic pola
+Go to the logotypes directory and edit the file title_new_logo.md - fill in the fields accordingly
 
-```
+``
 ---
 title: ""
 draft: true
 link: ""
-image: "i/europe.svg"
+image: "i / europe.svg"
 ---
 
-```
+``
 
 
-Pole image uzywane jest do dodania obrazka z logo organizacji - trzeba go wczesniej dodac do katalogu static a sciezka wpisywana w tym polu zaczyna sie wewnatrz katalogu static np. dla static/i/europe.svg wpisujemy jedynie i/europe.svg
+The image field is used to add an image with the organization's logo - it must be added to the static directory beforehand and the path entered in this field starts inside the static directory, e.g. for static / i / europe.svg, just enter i / europe.svg
 
-Pole link to link do strony organizacji powiązanej z dodanym logo
+The link field is a link to the website of the organization associated with the added logo
 
-### WAZNE
+### IMPORTANT
 
-Po skonczonej edycji trzeba zmienic draft na false - tak publikuje sie nowy wpis
+After editing, you have to change the draft to false - this is how the new entry is published
 
-## Poradnik uzywania [markdown](https://www.markdownguide.org/getting-started/)
+## Usage Guide [markdown] (https://www.markdownguide.org/getting-started/)
 
-# 2. Commitowanie zmian
+# 2. Committing changes
 
-Nalezy wykonac nastepujace operacje:
+Perform the following operations:
 
 `git add .`
 
-`git commit -a -m 'Informacja o dodaniu nowego wpisu'`
+`git commit -a -m 'Information about adding a new entry`
 
 `git push`
 
-### Strona po około minucie od wykonania powyzszej kombinacji polecen odswiezy sie samodzielnie na serwerze
+### The page will refresh itself on the server after about a minute of executing the above combination of commands
 
-# 3. Podgląd lokalny
+# 3. Local preview
 
-Podczas edytowania strony na kompyterze mozna podejrzeć efekt pracy wpisując w terminalu:
+While editing the page on the computer, you can preview the effect of work by typing in the terminal:
 `hugo server -D`
 
-W efekcie uruchomiony zostanie serwer testowy pod adresem:
+As a result, the test server will be launched at the following address:
 
-`http://localhost:1313/`
-
+`http: // localhost: 1313 /`

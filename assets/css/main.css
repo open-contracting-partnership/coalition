@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+.pagination {
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    margin: 20px 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.homepage .page-link,
+.listing .page-link {
+    background-color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.content h1 { font-weight:bold; padding:1rem 0 1rem 0;}
+.content h2 { font-weight:bold; padding:1rem 0 1rem 0;}
+.content h3 { font-weight:bold; padding:1rem 0 1rem 0;}
+.content p {padding:0.5rem 0 0.5rem 0;}
+.content a {color:#000000; text-decoration: underline;}
+.content ul {list-style-type: disc;}
+.content li { padding:0.5rem 0 0.5rem 0; }
+.bg-darkgray {
+    background-color: #323232;
+}
+.bg-green {
+    background-color: #6016C7;
+}
+
+.news a {
+    color: #999;
+}
+
+.news a:hover {
+    color: #000;
+}
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #999;
+}
+
+.text-green {
+    color: #000;
+}
+.text-green:hover{
+    background: #999;
+    color: #000000    
+}
+
+.discrete {
+    color: rgba(17, 24, 39);
+    transition-duration: 200ms;
+}
+
+.discrete:hover {
+    color: #6016C7;
+}
+
+.discrete .link {
+    color: #6016C7;
+    font-weight: bold;
+    margin-left: 0.25rem;
+}
+
+.browser-window {
+    background-color: #e6e6e6;
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+}
+.browser-window .browser-window-inner {
+    border: 1px solid #f3f3f3;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom: 0;
+}
+.browser-window .browser-window-header {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.browser-window .browser-window-header .buttons-left {
+    height: 2rem;
+    padding: 0.45rem;
+}
+.browser-window .browser-window-header .buttons-left span {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 0.7rem;
+    margin: 0.2rem;
+    background-color: #bbb;
+    display: inline-block;
+}
+.browser-window .browser-window-body {
+    background-color: #f1f2f3;
+}
+.browser-window .browser-window-body img {
+    width: 100%;
+}
+
+.bg-gradient {
+    /*background-image: linear-gradient(to bottom right, #FFFFFF, #f9fafb);*/
+}
+
+
+.vueperslides__arrow {
+    color: #6016C7 !important;
+}
+
+
+.people .vueperslides--fixed-height {
+    height: 20rem !important;
+}
+
+.politicians .vueperslides--fixed-height {
+    height: 20rem !important;
+}
+
+.politician {
+    color: white;
+}
+
+.politician .gradient {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+@keyframes move {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+}
+
+#tools > div:nth-child(1) > div {
+    border-top: none !important;
+}
+
+@media (min-width: 768px) {
+    #tools > div:nth-child(2) > div {
+        border-top: none !important;
+    }
+}

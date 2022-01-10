@@ -1,0 +1,50 @@
+---
+title: "Evidence"
+date: 2021-11-19T15:00:34+01:00
+draft: true
+type: "page"
+---
+
+![enter image description here](i/puzzles.svg)
+
+Openness in procurement can improve procurement in multiple ways, including more integrity, efficiency, level playing field, etc. Find a list of available evidence below:
+
+### Open procurement improves public integrity by deterring fraud and corruption
+
+-   [Academic research](http://digiwhist.eu/publications/lights-on-the-shadows-of-public-procurement-transparency-in-government-contracting-as-an-antidote-to-corruption/)  shows that improved openness and transparency is good for public integrity, value for money and competition. A study of more than 3.5 million government contracts across Europe determined that every additional item of information shared about a tender decreases the risk of a single bid contract. This matters because single bid contracts are both a governance risk and over 7% more expensive than the norm. Publishing five more pieces of information about each contract in Europe would add up to 3.6 billion Euros in savings.
+-   [In Colombia](https://medium.com/open-contracting-stories/the-deals-behind-the-meals-c4592e9466a2), the Ministry of Education exposed a price-fixing scheme that increased costs by 45%. Public policy reforms to combat this scheme resulted in savings of 10–15%.
+-   Among entrepreneurs, perceptions of corruption in procurement have almost halved in Ukraine following the country’s Prozorro open contracting reforms, from 58% to 29%.
+-   In the Slovak Republic, the law requires all public contracts, with certain limited exceptions, to be published online. Any unpublished contracts are declared to be unenforceable. Civil society organisations, including Transparency International Slovakia, established a user-friendly platform making the information on contracts available more widely and work with journalists to uncover corrupt contracts. There are several examples where waste fraud and abuse came to light (including hospital scanners being bought at double the normal price from a shell company connecteds to a high-ranking politician) and contracts for expensive seafood, cognac and luxury cars were all cancelled after they were picked up and published by the media. Almost 8% of the public checks at least one contract or receipt online every year. The initiative cost less thant US$1m in total to implement. More information on the impact of this radical transparency regime is  [here](http://www.transparency.sk/wp-content/uploads/2015/05/Open-Contracts.pdf).
+
+### Openness in procurement helps track, monitor and improve spending and service delivery
+
+-   [A study from Columbia University in Peru](https://www.theigc.org/blog/guardians-accountability-field-experiment-corruption-inefficiency-perus-local-public-works/)  looked at the impact of transparency and monitoring of contracts on the procurement process of infrastructure projects, finding that monitoring decreased spending by 50%.
+-   [An academic study of road works projects in Afghanistan](https://lukecondra.files.wordpress.com/2017/07/iwa_14june2017.pdf)  found that in neighborhoods where the community monitored the implementation of the project, new roads were of significantly higher quality and more durable.
+-   A 2014  [study by the Center for Global Development](https://www.cgdev.org/sites/default/files/publishing-government-contracts-report.pdf)  shows that government procurement alone worldwide is worth around $9.5 trillion a year, and our initial research for 2019 shows that this value has increased to over $12.5 trillion. Due to the massive size of this market, even small percent savings can generate huge returns.
+-   Being able to review past contracts issued for similar work (or for a similar concession)  [allows firms to bid on new contracts](https://www.cgdev.org/sites/default/files/publishing-government-contracts-report.pdf)  only where they have a realistic chance of winning and to put in higher-quality bids at lower cost. As bid preparation costs range from about 0.5 to 1.0 percent of contract values on large construction contracts (and often considerably higher than that on smaller consulting contracts), this can be a significant benefit.
+-   The costs of the physical publication system itself appear to be minor: the Georgian e-procurement platform, which includes contract publication, was developed in house for  [less than US$1 million](https://www.cgdev.org/sites/default/files/publishing-government-contracts-report.pdf). It serves as the document management and procurement-planning platform for all state entities alongside every school, municipality, and ministry in the country. Costs are reduced the more the existing procurement system is online—something that has been found to independently increase efficiency in a range of countries.
+-   The  [average cost](https://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-5247)  for road rehabilitation across eighteen countries with good data on both bribes and costs is $36/m2. In the low bribery countries, it was $30/m2 and in the high bribery countries it was $46/m2.
+-   [In Paris](https://www.cgdev.org/sites/default/files/publishing-government-contracts-report.pdf), negotiated housing contracts combined with greater transparency reduced bid prices by 26 percent and also reduced the probability of bid renegotiation.
+-   [In Slovakia](https://www.cgdev.org/sites/default/files/publishing-government-contracts-report.pdf), procurement transparency reforms that included contract publication were associated with an increase in competition on the average government tender: from 2.3 bids in 2009 to 3.6 bids in 2013.
+-   [In Paraguay](https://medium.com/open-contracting-stories/paraguays-transparency-alchemists-623c8e3c538f), consistent community pressure led to a dramatic improvement in how funds for school facilities are allocated in Ciudad del Este over three years. More than 80% of the most needy schools now receive funding, compared to fewer than 20% in 2015.
+-   [In Ukraine](http://ti-health.org/wp-content/uploads/2017/01/Making_The_Case_for_Open_Contracting_TI_PHP_Web.pdf), the government’s central e-procurement system, ProZorro, helped more than 2000 healthcare organisations that use it save an average of 15% on all their procurements. Where three companies or more bid for contracts, healthcare organisations saved an average of 35%.
+
+### Openness ensures value for money, saving governments time and money
+
+-   [Academic research](http://digiwhist.eu/publications/lights-on-the-shadows-of-public-procurement-transparency-in-government-contracting-as-an-antidote-to-corruption/)  shows that improved openness and transparency is good for public integrity, value for money and competition. A study of more than 3.5 million government contracts across Europe determined that every additional item of information shared about a tender decreases the risk of a single bid contract. This matters because single bid contracts are both a governance risk and over 7% more expensive than the norm. Publishing five more pieces of information about each contract in Europe would add up to 3.6 billion Euros in savings.
+-   [In Paraguay](https://medium.com/open-contracting-stories/paraguays-transparency-alchemists-623c8e3c538f), adjustments and amendments to the contracting process have dropped from 19% to 3% after implementing open contracting reforms.
+
+### Open contracting helps build a fairer business environment and create a level playing field for suppliers
+
+-   A World Bank survey of 34,000 companies in 88 countries found that competition was higher and kickbacks were fewer and smaller in places where transparent procurement, independent complaint procedures and external auditing are in place.
+-   A  [study analyzing contracts in Europe](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483868)  before and after they were made available as open data in 2015 found that bids received per tender increases by 12% for contracts above EU publication thresholds, relative to contracts below the threshold. Public officials are also more likely to award government contracts to new vendors after 2015. Prices for contracts decreased by 8%.
+-   In Colombia, half of all contractors that won government bids under the new, more open procurement system in 2015 had never participated in public contracting before.
+-   In Slovakia, the average number of bidders doubled after procurement reforms required the default publication of contracts and the use of e-procurement systems, from 1.6 firms in 2010 to 3.7 companies in 2014. Restricted and sole source tenders decreased from 21% to 4% of all contracting processes in those same years.
+-   In Ukraine, the number of unique providers increased by 45% after the implementation of the transformative Prozorro open contracting reforms. 75% of SMEs bidding on Prozorro won at least one public tender in 2017, the same year in which supplier diversification rose from 9.4 to 11.4.
+-   In Mexico, by mid-2010 the government had 39 registered social witnesses who had participated in 67 different procurements. One analysis by the Comision Federal de Electricidad (Federal electricity commission) found that the recommendations of social witnesses have led to significant improvements in the effectiveness of procurement, including a 50% increase in the number of suppliers that submitted bids and significant savings for the (up to USD 26 million in one specific procurement).
+
+### It creates new and better feedback loops between government and users
+
+-   In Ukraine, in 3 years of DoZorro operation, users flagged 21,000 tenders, 30% of which were resolved. More than 1200 tenders were revised, 59 criminal charges pressed, and 198 sanctions issued.
+-   In Colombia, a business consortium of 347 people now monitors school meal procurement to ensure quality meals reach hungry kids.
+-   In Slovakia, 8% of citizens interviewed looked at a public contract within a year of launching the new platform in 2014.

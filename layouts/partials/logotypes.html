@@ -1,0 +1,16 @@
+
+    <div class="flex h-12">
+        {{ range where .Site.RegularPages "Section" "logotypes" }}
+
+                <a
+                    href="{{ .Params.link }}"
+                    target="_blank"
+                    title="{{ .Title }}"
+                    class="flex-shrink-0 h-12 mx-4">
+                       <img
+                            src="{{ .Params.image }}"
+                            class="flex-shrink-0 h-12"/>
+                </a>
+        {{ end }}  
+     </div>
+                         

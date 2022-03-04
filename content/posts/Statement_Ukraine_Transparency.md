@@ -3,13 +3,11 @@ title: "Statement from the Open Spending EU Coalition. Attack on Ukraine and the
 date: 2022-03-03T13:48:23+01:00
 draft: true
 alternativeUrl: 
-summary: "In view of Russia's military action against the Ukrainian people, being concerned about making sure that European funds are spent as effectively as possible and to monitor the activities of sanctioned individuals and their associates:
-We call on the European Union and its member states to increase transparency and guarantee efficiency in the spending of public funds,
-We demand immediate action to increase the effective transparency of Beneficial and Company Ownership Registries." 
+summary: "In view of Russia's military action against the Ukrainian people, being concerned about making sure that European funds are spent as effectively as possible and to monitor the activities of sanctioned individuals and their associates: We call on the European Union and its member states to increase transparency and guarantee efficiency in the spending of public funds, and we demand immediate action to increase the effective transparency of Beneficial and Company Ownership Registries." 
 thumbnail: "i/uploads/EC_solidarity_Ukraine.jpg"
 ---
 
-"In view of Russia's military action against the Ukrainian people, being concerned about ensuring that European funds are spent as effectively as possible and in order to facilitate monitoring of the activities of sanctioned individuals and their associates:
+In view of Russia's military action against the Ukrainian people, being concerned about ensuring that European funds are spent as effectively as possible and in order to facilitate monitoring of the activities of sanctioned individuals and their associates:
 
 - We call on the European Union and its Member States to take urgent steps to increase the transparency of spending of public funds,
 
@@ -34,4 +32,4 @@ The Open Spending Coalition has a series of concrete recommendations for measure
 
 - Compulsory use of European Commission data-mining tool: All Member States should use the data-mining tool ARACHNE, which should be interoperable with other public datasets.
 
-Although some of these tasks require slight changes in several regulations (implementation of the Act on high-value datasets, or imposing stronger transparency requirements in Financial Regulation), they should be considered as components of a comprehensive system. Organisations dealing with transparency of expenditure, company, and beneficial ownership have the competence, and knowledge of practical solutions to achieve this. Politicians and other officials now have a special responsibility to put them into action." 
+Although some of these tasks require slight changes in several regulations (implementation of the Act on high-value datasets, or imposing stronger transparency requirements in Financial Regulation), they should be considered as components of a comprehensive system. Organisations dealing with transparency of expenditure, company, and beneficial ownership have the competence, and knowledge of practical solutions to achieve this. Politicians and other officials now have a special responsibility to put them into action. 

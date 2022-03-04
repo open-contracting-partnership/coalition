@@ -3,7 +3,7 @@ title: "Statement from the Open Spending EU Coalition. Attack on Ukraine and the
 date: 2022-03-03T13:48:23+01:00
 draft: true
 alternativeUrl: 
-summary: "In view of Russia's military action against the Ukrainian people, being concerned about making sure that European funds are spent as effectively as possible and to monitor the activities of sanctioned individuals and their associates: We call on the European Union and its member states to increase transparency and guarantee efficiency in the spending of public funds, and we demand immediate action to increase the effective transparency of Beneficial and Company Ownership Registries." 
+summary: "In view of Russia's military action against the Ukrainian people, being concerned about making sure that European funds are spent as effectively as possible and to monitor the activities of sanctioned individuals and their associates: we call on the European Union and its member states to increase transparency and guarantee efficiency in the spending of public funds, and we demand immediate action to increase the effective transparency of Beneficial and Company Ownership Registries." 
 thumbnail: "i/uploads/EC_solidarity_Ukraine.jpg"
 ---
 

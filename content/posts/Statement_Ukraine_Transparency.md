@@ -6,6 +6,7 @@ alternativeUrl:
 summary: "In view of Russia's military action against the Ukrainian people, being concerned about ensuring that European funds are spent as effectively as possible and in order to facilitate monitoring of the activities of sanctioned individuals and their associates: we call on the European Union and its Member States to take urgent steps to increase the transparency of spending of public funds, and we demand immediate action to deliver long-promised and genuine transparency of Beneficial and Company Ownership Registries." 
 thumbnail: "i/uploads/EC_solidarity_Ukraine.jpg"
 ---
+
 In view of Russia's military action against the Ukrainian people, being concerned about ensuring that European funds are spent as effectively as possible and in order to facilitate monitoring of the activities of sanctioned individuals and their associates:
 
  - We call on the European Union and its Member States to take urgent steps to increase the transparency of spending of public funds,

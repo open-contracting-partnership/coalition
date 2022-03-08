@@ -1,5 +1,5 @@
 ---
-title: "Statement from the Open Spending EU Coalition. Attack on Ukraine and the Urgent Steps to be Taken for Effective Support."
+title: ".Statement from the Open Spending EU Coalition. Attack on Ukraine and the Urgent Steps to be Taken for Effective Support."
 date: 2022-03-03T13:48:23+01:00
 draft: false 
 alternativeUrl: 

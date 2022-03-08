@@ -61,6 +61,8 @@ After editing, you have to change the draft to false - this is how the new entry
 
 Perform the following operations:
 
+`hugo -D`
+
 `git add .`
 
 `git commit -a -m 'Information about adding a new entry`

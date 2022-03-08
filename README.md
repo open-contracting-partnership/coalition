@@ -1,3 +1,8 @@
+# 0. Getting up to date
+Before starting work, you must first download the current version of the application from the remote repository:
+
+git pull
+
 # 1. Adding a new entry
 
 hugo new posts / title_new_wpisu.md

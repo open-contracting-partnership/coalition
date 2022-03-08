@@ -1,7 +1,7 @@
 ---
 title: "Statement from the Open Spending EU Coalition. Attack on Ukraine and the Urgent Steps to be Taken for Effective Support."
 date: 2022-03-03T13:48:23+01:00
-draft: true
+draft: false
 alternativeUrl: 
 summary: "In view of Russia's military action against the Ukrainian people, being concerned about ensuring that European funds are spent as effectively as possible and in order to facilitate monitoring of the activities of sanctioned individuals and their associates: we call on the European Union and its Member States to take urgent steps to increase the transparency of spending of public funds, and we demand immediate action to deliver long-promised and genuine transparency of Beneficial and Company Ownership Registries." 
 thumbnail: "i/uploads/EC_solidarity_Ukraine.jpg"
@@ -11,7 +11,7 @@ In view of Russia's military action against the Ukrainian people, being concerne
  - We call on the European Union and its Member States to take urgent steps to increase the transparency of spending of public funds,
  - We demand immediate action to deliver long-promised and genuine transparency of Beneficial and Company Ownership Registries. 
 
- 
+
 The European Union has shown in recent days its ability to take joint action to defend democracy and to stand up for the values that accompany it, demonstrating its collective strength. There are many challenges facing the public in relation to the current circumstances and how the situation in Ukraine and Europe will develop. We must make the EU even stronger and more resistant to corruption, the misuse of its funds and the penetration of its economy by sanctioned persons and institutions. 
 We must ensure that EU funds spent inside and outside its borders are used in an effective way that meets real needs. We must protect against misuse and theft as these funds are distributed. Journalists and civil society organisations must have effective means of supporting the public authorities and law enforcement in tracing Russian capital. We cannot allow ill-conceived privacy or cost arguments, nor economic interests to prevent this. The Union has put forward multiple Directives to make beneficial and company ownership more transparent, but in practice implementation at the EU and national level is falling short. 
 

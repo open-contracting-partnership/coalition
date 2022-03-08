@@ -18,13 +18,13 @@ We must ensure that EU funds spent inside and outside its borders are used in an
 
 The Open Spending Coalition has a series of concrete recommendations for measures that can be taken immediately, at a minimal cost. These can be divided into those for which the will to change existing practice is sufficient and those that require changes to legislation.
 
-Change of practice:
+# Change of practice:
 
  - Full publication of beneficial ownership registers under the Anti-Money Laundering Directive: All Member States should comply with their obligations under the Anti-Money Laundering Directive and establish centralised, publicly-accessible beneficial ownership registers for companies as soon as possible.
  - We call on Member States to commit to true transparency and to act immediately to go beyond the existing minimum requirements and to open up beneficial ownership and company registration information with free access to fully searchable databases with reuse permitted. 
  - User-friendly, accessible information across the entire procurement process by European governments from the planning, to the tender and award of contracts, to their delivery. Governments should plan and deliver contracts involving relevant stakeholders throughout the process so that the best outcomes can be designed into public contracting from the start. 
 
-Legislative changes:
+# Legislative changes:
 
 We call on the Commission to urgently adopt the solutions that the European Parliament has recommended in its Resolution of 24 November 2021 on the revision of the Financial Regulation in view of the entry into force of the 2021-2027 multiannual financial framework, and which are described in points 19, 21 and 23, to achieve: 
 

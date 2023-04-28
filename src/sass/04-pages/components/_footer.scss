@@ -1,0 +1,101 @@
+// .wp-block-cover.footer {
+//   padding: 0px;
+// }
+
+.footer {
+  &:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(135deg, #3387d7 0%, #093157 100%);
+    opacity: 0.5;
+    mix-blend-mode: normal;
+  }
+
+  .footer-links ul li {
+    font-size: 14px;
+
+    &:not(:first-child) {
+      margin-top: 12px;
+    }
+  }
+  .wp-social-link {
+    background-color: var(--n-0) !important;
+    color: var(--n-90) !important;
+  }
+
+  .wp-social-link {
+    @apply transition-all duration-300;
+    svg path {
+      @apply transition-all duration-300;
+    }
+  }
+
+  .wp-social-link-linkedin:hover svg path {
+    fill: #0072b1;
+  }
+  .wp-social-link-twitter:hover svg path {
+    fill: #00acee;
+  }
+  .wp-social-link-youtube:hover svg path {
+    fill: #e62117;
+  }
+}
+
+.footer {
+  @apply min-h-0 py-14 sm:py-20 md:py-32;
+}
+
+.footer {
+  ul {
+    @apply transition duration-200;
+
+    li:not(.wp-social-link) a {
+      @apply link-underline link-underline-black transition-all duration-300;
+      &:hover {
+        color: var(--n-30) !important;
+      }
+    }
+  }
+}
+
+.link-underline {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 1px;
+  border-bottom-width: 0;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-teal {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgba(29, 111, 163, 1), rgba(29, 111, 163, 1));
+}
+
+.link-underline:hover {
+  background-position: 0 100%;
+  background-size: 100% 1px;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgba(189, 190, 192, 1), rgba(189, 190, 192, 1));
+}
+
+.link-underline-none:hover {
+  background: none !important;
+}
+
+.footer-toc {
+  p {
+    @apply transition-all duration-300;
+
+    &:hover {
+      @apply text-teal;
+    }
+  }
+}

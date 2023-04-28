@@ -1,0 +1,36 @@
+.join-us-image-text {
+  font-size: 24px !important;
+  line-height: 1.25 !important;
+  @include mq("md", min) {
+    font-size: 32px !important;
+  }
+  @apply max-w-[604px] text-left sm:ml-32 sm:mt-8;
+}
+
+.join-us-feature-image {
+  @apply min-h-[315px] sm:min-h-[430px];
+  .wp-block-cover__background.has-background-dim {
+    opacity: 0.3;
+    @apply rounded-xl;
+  }
+  img {
+    @apply rounded-xl;
+  }
+}
+
+.join-us-content {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+
+  @include mq("lg", min) {
+    margin-top: 64px !important;
+    margin-bottom: 96px !important;
+  }
+
+  .jooin-us-container {
+    @apply max-w-[635px] mx-auto;
+    p {
+      @apply md:text-lg;
+    }
+  }
+}

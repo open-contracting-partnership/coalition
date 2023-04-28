@@ -1,0 +1,57 @@
+/**
+** example code
+**/
+html,
+body {
+  @apply text-base text-n-100;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  @apply text-heading-1 leading-tight;
+
+  @include mq("lg", max) {
+    @apply text-4xl;
+  }
+
+  @include mq("md", max) {
+    @apply text-heading-2;
+  }
+}
+
+h2 {
+  @apply text-heading-2 leading-tight;
+
+  @include mq("md", max) {
+    @apply text-heading-3;
+  }
+}
+
+h3 {
+  @apply text-heading-3 leading-tight;
+
+  @include mq("md", max) {
+    @apply text-heading-4;
+  }
+}
+
+h4 {
+  @apply text-heading-4 leading-normal;
+
+  @include mq("lg", max) {
+    @apply text-heading-5;
+  }
+
+  @include mq("md", max) {
+    @apply text-heading-6;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}

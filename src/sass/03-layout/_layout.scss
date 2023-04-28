@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 1280px) {
+    max-width: 1110px;
+  }
+  @media (min-width: 1441px) {
+    max-width: 1280px;
+  }
+}
+
+body .is-layout-constrained > .alignwide {
+  @apply container;
+}
+
+body
+  .is-layout-constrained
+  > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  max-width: none;
+}
+
+body .is-layout-flow > * + * {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.wp-site-blocks > * + * {
+  margin-block-start: 0;
+}
+
+.wp-site-blocks {
+  padding: 0;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans";
+}

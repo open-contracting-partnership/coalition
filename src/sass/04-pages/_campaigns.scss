@@ -1,0 +1,54 @@
+// body:not(.home) {
+//   header {
+//     background-color: var(--n-100);
+//   }
+// }
+
+body.post-type-archive-campaign {
+  background: #f9f9ff;
+}
+
+//Single page
+.campaign-vid-thumbnail {
+  @apply cursor-pointer;
+  &:after {
+    content: "";
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 97.63%);
+    @apply absolute top-0 h-full w-full rounded-xl;
+  }
+  &:before {
+    content: "";
+    background: url(../../../dist/images/icons/play-icon.svg) no-repeat center;
+    background-size: 18px 25px;
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-16 w-16 z-10 p-5 pl-6 rounded-full bg-teal opacity-70 transition-all duration-300;
+  }
+  &:hover {
+    &:before {
+      @apply scale-110 opacity-90;
+    }
+  }
+}
+
+.video-page {
+  background: rgb(0 0 0 / 50%);
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-150%);
+  transition: all 1s ease-out;
+  &.show {
+    visibility: visible !important;
+    pointer-events: visible !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+.video-close {
+  @apply transition-all duration-300;
+  &:hover {
+    background-color: var(--n-0);
+    svg path {
+      stroke: #000;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+body:not(.home) .hero_banner_1 {
+  display: none;
+}
+
+//Admin panel banner visible
+body.block-editor-iframe__body {
+  .hero_banner_1 {
+    display: block;
+  }
+}
+
+.home {
+  #heroCanvas {
+    display: block;
+  }
+  .hero_banner_1 {
+    display: block;
+    // padding-top: 234px;
+    // padding-bottom: 324px;
+  }
+  .post-title-osc.wp-block-post-title {
+    display: none;
+  }
+  main {
+    margin-top: 0 !important;
+  }
+
+  // header {
+  //   position: relative;
+  // }
+  // .hero-image {
+  //   position: absolute;
+  //   height: 100%;
+  //   top: 0;
+  //   right: 0;
+  //   width: 100%;
+  // }
+  // .wp-container-6 {
+  //   position: relative;
+  //   z-index: 5;
+  //   @apply container;
+  // }
+}
+
+header {
+  // background-image: url(../../../dist/images/Hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(135deg, #3387d7 0%, #00488c 100%);
+    opacity: 0.7;
+  }
+  .header-content {
+    position: relative;
+    z-index: 5;
+    @apply container;
+  }
+
+  .hero_banner_1 {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.hero-btn svg path {
+  fill: var(--n-0);
+}
+
+.hero-btn {
+  pointer-events: all;
+  @apply transition-all duration-[400ms];
+  svg path {
+    @apply transition-all duration-[400ms];
+  }
+  &:hover {
+    background-color: #fff200;
+    p {
+      color: var(--n-100);
+    }
+    svg path {
+      fill: var(--n-100);
+    }
+  }
+}
+
+canvas {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}

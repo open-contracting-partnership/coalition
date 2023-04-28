@@ -1,0 +1,152 @@
+.archive-accordion-category {
+  .category-item {
+    @apply text-sm text-[#1D6FA3] bg-n-10 py-1 rounded-xl transition-all duration-300  border border-n-0 hover:border-n-30;
+    &.active {
+      @apply text-n-90 hover:border-n-0;
+    }
+    .filter-input {
+      @apply cursor-pointer px-2 py-1;
+    }
+  }
+}
+
+.archive-accordion {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.archive-accordion-items {
+  @apply transition-all duration-300;
+  &:hover {
+    box-shadow: 0px 5px 8px rgba(233, 233, 234, 1);
+    border-radius: 24px;
+    @apply border border-n-50;
+  }
+}
+// .archive-accordion-items {
+// @apply mb-6 w-full;
+
+// &:hover {
+//   box-shadow: 0px 5px 8px rgba(233, 233, 234, 1);
+//   border-radius: 24px;
+//   @apply border border-n-50;
+// }
+// @include mq("lg", max) {
+//   @apply w-[47%] mr-[3%];
+//   &:not(:nth-child(2n)) {
+//     margin-right: 2%;
+//   }
+// }
+// @include mq("sm", max) {
+//   @apply w-full;
+// }
+// @include mq("lg", min) {
+//   @apply w-[31%] mr-[2.33%];
+//   &:not(:nth-child(3n)) {
+//     margin-right: 2%;
+//   }
+// }
+// }
+
+//Detail page
+.single-detail-content {
+  figure.wp-block-image {
+    @apply my-6 sm:mt-8 sm:mb-10 pt-[57%] relative;
+    img {
+      @apply absolute top-0 h-full w-full object-cover left-0;
+    }
+  }
+}
+
+select#news-country-filter {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url(../../../dist/images/icons/select-dropdown.svg);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.news-detail-content p {
+  @apply text-n-100;
+}
+
+// Twitter share text
+.has-inline-text {
+  background-color: #f4f4f5 !important;
+  @apply transition-all duration-300;
+  &:hover {
+    background-color: var(--n-20) !important;
+    color: var(--n-90) !important;
+  }
+  &:after {
+    content: url(../../../dist/images/icons/twitter.svg);
+    margin-left: 8px;
+  }
+  &:hover:after {
+    display: inline !important;
+    content: url(../../../dist/images/icons/twitter-active.svg);
+  }
+}
+
+// Twitter share tooltip
+.has_twitter {
+  border-radius: 12px !important;
+  display: block !important;
+  position: relative;
+  @apply transition-all duration-300 cursor-pointer;
+  &:before {
+    position: absolute;
+    content: "";
+    // height: 10px;
+    // width: 10px;
+    // background: #1da1f2;
+    bottom: -19px;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #1da1f2 transparent transparent transparent;
+    @apply -translate-x-1/2 transition-all duration-300 delay-[60ms];
+  }
+  &:hover {
+    background: #3a3d43 !important;
+    &:before {
+      border-color: #3a3d43 transparent transparent transparent;
+    }
+  }
+
+  .has-text {
+    text-transform: capitalize;
+    letter-spacing: normal;
+    font-family: "DM Sans";
+  }
+}
+
+.highlight-and-share-wrapper div.has-tooltip:hover:after {
+  display: none !important;
+}
+
+select#country-filter {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("../../../dist/images/icons/select-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 6px;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  @apply transition-all duration-300;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:hover {
+    background-image: url("../../../dist/images/icons/select-icon-hover.svg");
+  }
+}

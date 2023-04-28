@@ -1,0 +1,17 @@
+.error-details {
+  svg {
+    height: 1em;
+  }
+}
+
+.error404 main {
+  @apply bg-n-20;
+}
+
+.back-links a {
+  text-decoration: underline !important;
+  @apply text-teal transition-all duration-300;
+  &:hover {
+    color: rgb(27, 66, 90);
+  }
+}

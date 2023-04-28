@@ -1,0 +1,40 @@
+<!-- wp:template-part {"slug":"header","theme":"open-spedning-coalition","tagName":"header"} /-->
+
+<!-- wp:html -->
+<div class="breadcrumb bg-n-10">
+	<div class="breadcrumb-menu container">
+		<div class="breadcrumb-menu__item">
+			<a href="/">Home</a>
+		</div>
+		<div class="breadcrumb-menu__item">
+			Search </div>
+	</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:search {"label":"","buttonText":"Search","className":"container search-input"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"container search-content","layout":{"type":"default"}} -->
+<main class="wp-block-group container search-content" style="margin-top:0;margin-bottom:0">
+
+	<!-- wp:query {"queryId":0,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"list","columns":3},"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide"} -->
+		<!-- wp:post-title {"isLink":true} /-->
+		<!-- wp:post-excerpt /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:acf/page-pagination {"name":"acf/page-pagination","data":{},"mode":"preview"} /-->
+
+		<!-- wp:query-no-results  {"className":"search-no-results"} -->
+		<!-- wp:paragraph -->
+		<p>
+			We’re sorry, but it looks like your search term did not yield any results. Please try again with a different
+			search term or <a href="/contact-us">contact our support team</a> for further assistance.</p>
+		<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+	</div>
+	<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"open-spedning-coalition","tagName":"footer"} /-->

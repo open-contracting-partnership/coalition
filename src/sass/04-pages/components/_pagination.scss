@@ -1,0 +1,21 @@
+.pagination {
+  @apply container mb-10 md:mb-16 lg:mb-24;
+  .nav-links {
+    @apply max-w-fit mx-auto flex gap-x-4;
+    .page-numbers {
+      @apply h-10 w-10 border border-n-10 rounded flex items-center justify-center text-teal font-semibold transition-all duration-300;
+      &:hover {
+        @apply bg-n-10;
+      }
+      &.current {
+        @apply bg-n-20 text-n-100;
+      }
+      &.next,
+      &.prev {
+        svg path {
+          fill: #1d6fa3;
+        }
+      }
+    }
+  }
+}

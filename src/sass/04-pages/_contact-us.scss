@@ -1,0 +1,41 @@
+.contact-links {
+  p {
+    @apply sm:mb-2 text-base leading-tight;
+    a {
+      @apply text-n-0 transition-all duration-300;
+      &:hover {
+        @apply text-n-30;
+      }
+    }
+  }
+}
+
+.contact-us {
+  .ff-el-form-control {
+    @apply border border-teal rounded-lg transition-all duration-300 hover:border-n-50 focus:border-n-70;
+  }
+  .ff-btn-submit {
+    @apply px-12 py-4 text-lg;
+
+    &:hover {
+      background: var(--n-100) !important;
+      color: var(--n-0) !important;
+      border-color: var(--n-100) !important;
+    }
+  }
+}
+
+.contact-us-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wp-admin .contact-admin {
+  padding: 0px !important;
+}
+
+.icon-hover:hover {
+  img {
+    @apply scale-110;
+  }
+}

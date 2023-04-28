@@ -1,0 +1,93 @@
+.about-organization-content {
+  margin-top: 32px !important;
+  margin-bottom: 40px !important;
+  @include mq("sm", min) {
+    margin-top: 40px !important;
+    margin-bottom: 64px !important;
+  }
+  @include mq("md", min) {
+    max-width: 735px !important;
+    margin-bottom: 224px !important;
+  }
+  @include mq("lg", min) {
+    margin-top: 80px !important;
+  }
+  p {
+    @apply text-lg;
+  }
+  // h2 {
+  //   font-weight: 700;
+  //   margin-top: 32px !important;
+  //   margin-bottom: 16px !important;
+  //   @include mq("md", min) {
+  //     margin-top: 48px !important;
+  //     margin-bottom: 36px !important;
+  //   }
+  //   @include mq("lg", min) {
+  //     margin-top: 64px !important;
+  //   }
+  // }
+  // h3 {
+  //   font-weight: 700;
+  //   margin-top: 24px !important;
+  //   margin-bottom: 10px !important;
+  //   @include mq("md", min) {
+  //     margin-top: 56px !important;
+  //   }
+  // }
+
+  figure.wp-block-image {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+    font-weight: 700;
+    @include mq("sm", min) {
+      margin-top: 32px !important;
+      margin-bottom: 40px !important;
+    }
+    @apply pt-[57%] relative;
+    img {
+      @apply absolute top-0 h-full w-full object-cover left-0;
+    }
+  }
+  .about-us-container {
+    & > :not(figure) {
+      @apply md:pl-24;
+    }
+  }
+}
+
+// .about-feature-image {
+//   & > * {
+//     border-radius: 12px;
+//   }
+//   @apply pt-[44%] relative min-h-[315px] sm:min-h-[430px];
+//   img {
+//     @apply absolute top-0 h-full w-full object-cover rounded-xl;
+//   }
+//   .wp-block-cover__inner-container {
+//     @apply flex absolute top-0 h-full justify-center md:justify-end items-center lg:items-end p-8 lg:p-36;
+//     .about-image-text {
+//       @apply max-w-[340px] pt-14 lg:pt-0;
+//     }
+//   }
+// }
+
+.about-feature-image {
+  @apply min-h-[315px] sm:min-h-[430px];
+  .wp-block-cover__background.has-background-dim {
+    opacity: 0.3;
+    @apply rounded-xl;
+  }
+  img {
+    @apply rounded-xl;
+  }
+}
+
+.about-image-text {
+  font-size: 24px !important;
+  line-height: 1.25 !important;
+  @include mq("md", min) {
+    font-size: 32px !important;
+  }
+  @apply text-left mt-8 flex justify-center;
+}

@@ -76,8 +76,6 @@ function main_query_pagination()
 		'next_text'     => sprintf($rightIcon),
 	));
 
-	$paginate = str_replace('next', 'next', $paginate);
-
 	$html_paginate = "";
 
 	if ($paginate) {
@@ -115,7 +113,6 @@ function custom_query_pagination($query, $paged)
 		'add_fragment' => '',
 	));
 
-	$paginate = str_replace('next', 'next', $paginate);
 	$html_paginate = "";
 
 	if ($paginate) {

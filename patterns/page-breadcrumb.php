@@ -2,7 +2,7 @@
 
 /**
  * Title: page breadcrumb
- * Slug: www.open-spending.eu/page-breadcrumb
+ * Slug: www-open-spending-eu/page-breadcrumb
  * Categories: page
  * Keywords: page breadcrumb
  * Block Types: core/template-part/page-breadcrumb

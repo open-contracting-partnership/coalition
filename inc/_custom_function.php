@@ -48,8 +48,8 @@ function taxoTermsName($id, $taxonomy_val)
 
 // Display svg icons  
 
-if (!function_exists('useSVG')) {
-	function useSVG($filename = 'long-arrow-right')
+if (!function_exists('useSvg')) {
+	function useSvg($filename = 'long-arrow-right')
 	{
 		$icon = get_stylesheet_directory() . '/dist/images/icons/' . $filename . '.svg';
 
